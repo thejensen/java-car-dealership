@@ -3,7 +3,7 @@ import java.io.Console;
 public class App {
   public static void main(String[] args) {
     Console myConsole = System.console();
-
+// these constructors are talking to the class Vehicle in Vehicle.java
     Vehicle hatchback = new Vehicle(1994, "Subaru", "Legacy", 170000, 4000);
     Vehicle suv = new Vehicle(2002, "Ford", "Explorer", 100000, 7000);
     Vehicle sedan = new Vehicle(2015, "Toyota", "Camry", 50000, 30000);
